@@ -13,7 +13,10 @@ yarn add graphql-yoga <br>
   <br>
   터미널에 yarn global add babel-cli 입력 <br>
   .babelrc 파일 생성 <br>
-  .babelrc 파일에   "presets": ["env","stage-3"] 입력  <br>
+  .babelrc 파일에   
+  { <br>
+    "presets": ["env","stage-3"] 입력  <br>
+    } <br>
   터미널에 yarn startyarn add babel-cli babel-preset-env babel-preset-stage-3 --dev 입력<br>
   yarn start <br>
   
